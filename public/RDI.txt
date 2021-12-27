@@ -1,16 +1,16 @@
-<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cd RDI/<!-- kjsdfhkjdhsfkjdshfkj -->Timesheets
+<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cd RDI/<!-- kjsdfhkjdhsfkjdshfkj -->Time-Sheets
 <span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->12-26-21.txt<br/><br/>
 
 <p>__________________________________________________________________________</p>
 
-<p>____/\\\\\\\\\______/\\\\\\\\\\\\_____/\\\\\\\\\\\_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;__/\\\///////\\\___\/\\\////////\\\__\/////\\\///__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;_\/\\\_____\/\\\___\/\\\______\//\\\_____\/\\\_____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;_\/\\\\\\\\\\\/____\/\\\_______\/\\\_____\/\\\_____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\//////\\\____\/\\\_______\/\\\_____\/\\\_____&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\____\//\\\___\/\\\_______\/\\\_____\/\\\_____&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\_____\//\\\__\/\\\_______/\\\______\/\\\_____&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\______\//\\\_\/\\\\\\\\\\\\/____/\\\\\\\\\\\_&nbsp;
+<p>____/\\\\\\\\\______/\\\\\\\\\\\\_____/\\\\\\\\\\\_
+&nbsp;__/\\\///////\\\___\/\\\////////\\\__\/////\\\///__
+&nbsp;&nbsp;_\/\\\_____\/\\\___\/\\\______\//\\\_____\/\\\_____
+&nbsp;&nbsp;&nbsp;_\/\\\\\\\\\\\/____\/\\\_______\/\\\_____\/\\\_____
+&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\//////\\\____\/\\\_______\/\\\_____\/\\\_____
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\____\//\\\___\/\\\_______\/\\\_____\/\\\_____
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\_____\//\\\__\/\\\_______/\\\______\/\\\_____
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\______\//\\\_\/\\\\\\\\\\\\/____/\\\\\\\\\\\_
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\///________\///__\////////////_____\///////////__</p>
 
 <span id="k">
@@ -24,7 +24,7 @@ __________________________________________________________________________
 
 <a href="">-Blap:</a>
 <p>
--Tawk #: 54</br>-Tawk H: 0 (?)
+-Tawk #: 54</br>-Tawk H: 0 <span id="b">(?)</span>
 </p>
 
 <a href="">-Baloo:</a>
@@ -39,12 +39,12 @@ __________________________________________________________________________
 </br>
 __________________________________________________________________________
 
-Misc:
+<a href="">Tawk Misc:</a>
 Total Tawk Tickets: 106
 Missed Tawk chats this week: 25
 Most time: Lucasrroni
 Most tickets answered: Blap
-Least Time: Blap (?)
+Least Time: Blap <span id="b">(?)</span>
 Least tickets answered: Baloo
 __________________________________________________________________________
 </p>
@@ -59,12 +59,12 @@ __________________________________________________________________________
 <a href="">Breakdown:</a>
 <p>
 Unassigned and opened: 1
-Open: 23
+Open: 23 <span id="b">(?)</span>
 Escalated (waiting on admin or customer): 14
 __________________________________________________________________________
 
-- There is a lot of open tickets it looks like most of them are due to needing a refund or not receving a key after purchasing. About a 50/50 split between the two with one or two for other reasons.
+- There are a lot of open tickets it looks like most of them are due to needing a refund or not receving a key after purchasing. About a 50/50 split between the two with one or two for other reasons.
 __________________________________________________________________________
 </p>
 
-<p>Maddy#6666 ®2021</p>
+<p>Maddy#6666 ®2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =^..^=</p>

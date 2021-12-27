@@ -35,7 +35,7 @@ a {
 }
 
 #k {
-    	animation: change 1s;
+    	animation: change 2s;
 }
 
 #op{
@@ -44,6 +44,6 @@ a {
 
 @keyframes change {
     	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
+    	80% { color:  #0f0; }
     	99% { color: black; }
 }

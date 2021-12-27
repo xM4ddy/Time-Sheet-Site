@@ -2,7 +2,7 @@ var Typer = {
   text: '',
   accessCountimer: null,
   index: 0,
-  speed: 2,
+  speed: 3,
   file: '',
   accessCount: 0,
   deniedCount: 0,
@@ -65,7 +65,6 @@ var Typer = {
     }
 
     if (key.keyCode != 122) {
-      // otherway prevent keys default behavior
       key.returnValue = false;
     }
   },
@@ -99,7 +98,7 @@ Typer.speed = 3;
 Typer.file = 'RDI.txt';
 Typer.init();
 
-var timer = setInterval('t();', 30);
+var timer = setInterval('t();', 20);
 function t() {
   Typer.addText({ keyCode: 123748 });
 
