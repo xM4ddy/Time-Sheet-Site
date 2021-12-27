@@ -1,7 +1,6 @@
-
 <html> 
   <head> 
-    <title>RDI</title>
+    <title>Glaid</title>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="RDI Time Sheet" />
     <meta property="og:description" content="Updated Time Sheet" />
@@ -12,10 +11,23 @@
     <link rel="stylesheet" type="text/css" href="index.css">
   </head> 
   <body> 
-    <script type="text/javascript" src="index.js"> 
-    </script> 
+    <script type="text/javascript" src="index.js"></script>
+    <script>
+currentTitle = 1;
+myInterval = setInterval(setTitle, 1200);
+function setTitle() {
+if (currentTitle == 0) {
+    document.title = "Glaid";
+    currentTitle++;
+} else if (currentTitle == 1) {
+  document.title = "Likes";
+  currentTitle++;
+} else {
+  document.title = "Twinks";
+  currentTitle = 0;
+}
+}
+</script>
     <div id="console"></div> 
-    
-    </script>
   </body> 
 </html> 
