@@ -1,5 +1,5 @@
 <span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cd RDI/<!-- kjsdfhkjdhsfkjdshfkj -->Time-Sheets
-<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->12-26-21.txt<br/><br/>
+<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->1-2-22.txt<br/><br/>
 
 <p>__________________________________________________________________________</p>
 
@@ -20,36 +20,38 @@ Tawk
 __________________________________________________________________________
 </span>
 
-<p>12/20/21 - 12/26/21</p>
+<p>12/26/21 - 1/2/22</p>
 
 <a href="">-Blap:</a>
 <p>
--Tawk #: 54</br>-Tawk H: 0 <span id="b">(?)</span>
+-Tawk #: 90</br>-Tawk H: 75
 </p>
 
 <a href="">-Baloo:</a>
 <p>
--Tawk #: 14<br>-Tawk H: 24
+-Tawk #: 13<br>-Tawk H: 27
 </p>
 
 <a href="">-Lucasrroni:</a>
 <p>
--Tawk #: 21</br>-Tawk H: 51
+-Tawk #: 20</br>-Tawk H: 46
 </br>
 </br>
 __________________________________________________________________________
 
 <a href="">Tawk Misc:</a>
-Total Tawk Tickets: 106
-Missed Tawk chats this week: 25
-Most time: Lucasrroni
+Total Tawk Tickets: 138
+Missed Tawk chats this week: 28
+Most time: Blap
 Most tickets answered: Blap
-Least Time: Blap <span id="b">(?)</span>
-Least tickets answered: Baloo
+Least Time: Baloo
+Least tickets answered: Lucasrroni
 __________________________________________________________________________
 </p>
 
 <span id="k">
+    
+<!-- 
 __________________________________________________________________________
 
 Ticket
@@ -66,5 +68,6 @@ __________________________________________________________________________
 - There are a lot of open tickets it looks like most of them are due to needing a refund or not receving a key after purchasing. About a 50/50 split between the two with one or two for other reasons.
 __________________________________________________________________________
 </p>
+ -->
 
 <p>Maddy#6666 ®2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =^..^=</p>
