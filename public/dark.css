@@ -1,0 +1,55 @@
+:root {
+    background-color: #101010 !important;
+}
+
+body {
+    background-color: #101010;
+}
+
+#console {
+    font-family: courier, monospace;
+    color: #cccccc;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 1.2em !important;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+#a {
+    color: #ffaabb;
+}
+
+#c {
+    color: #777777;
+}
+
+#b {
+    color: #ff00ff;
+}
+
+#k {
+    animation: change 2s;
+}
+
+#op {
+    color: #cccccc;
+}
+
+@keyframes change {
+    0% {
+        color: #ffaabb;
+    }
+    80% {
+        color: #ffaabb;
+    }
+    99% {
+        color: #282b34;
+    }
+}
