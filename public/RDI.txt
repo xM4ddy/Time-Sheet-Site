@@ -50,24 +50,5 @@ __________________________________________________________________________
 </p>
 
 <span id="k">
-    
-<!-- 
-__________________________________________________________________________
-
-Ticket
-__________________________________________________________________________
-</span>
-
-<a href="">Breakdown:</a>
-<p>
-Unassigned and opened: 1
-Open: 23 <span id="b">(?)</span>
-Escalated (waiting on admin or customer): 14
-__________________________________________________________________________
-
-- There are a lot of open tickets it looks like most of them are due to needing a refund or not receving a key after purchasing. About a 50/50 split between the two with one or two for other reasons.
-__________________________________________________________________________
-</p>
- -->
 
 <p>Maddy#6666 ®2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =^..^=</p>
