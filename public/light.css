@@ -1,55 +1,110 @@
 :root {
-    background-color: #f8f8ff !important;
+	background-color: #f8f8ff !important;
 }
 
 body {
-    background-color: #f8f8ff;
+	background-color: #f8f8ff;
 }
 
 #console {
-    font-family: courier, monospace;
-    color: #25252D;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 1.2em !important;
+	font-family: courier, monospace;
+	color: #25252D;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 1.2em !important;
 }
 
 a {
-    color: #4242d8;
-    text-decoration: none;
+	color: #4242d8;
+	text-decoration: none;
 }
 
 #a {
-    color: #f599ab;
+	color: #ee7990;
 }
 
 #c {
-    color: #4bd862;
+	color: #4bd862;
 }
 
 #b {
-    color: #ff00ff;
+	color: #ff00ff;
 }
 
 #k {
-    animation: change 2s;
+	animation: change 2s;
 }
 
 #op {
-    color: #32D6D4;
+	color: #32D6D4;
 }
 
 @keyframes change {
-    0% {
-        color: #f599ab;
-    }
-    80% {
-        color: #f599ab;
-    }
-    99% {
-        color: #282b34;
-    }
+	0% {
+		color: #ee7990;
+	}
+
+	80% {
+		color: #ee7990;
+	}
+
+	99% {
+		color: #282b34;
+	}
+}
+
+.topcorner2 {
+    position: fixed;
+    top: 1em;
+    right: 0.5em;
+}
+
+.topcorner {
+    position: fixed;
+    top: 1em;
+    left: 10em;
+    cursor: pointer;
+    pointer-events: none
+}
+
+.topcorner3 {
+	position: fixed;
+	top: .5em;
+	left: .5em;
+}
+
+.button-1 {
+	font-family: courier, monospace;
+	font-size: 1.2em !important;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #25252D;
+	cursor: pointer;
+	border: 0px solid;
+	padding: 2em;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-1.light {
+	color: #f8f8ff00 !important;
+}
+
+.button-1:active {
+	box-shadow: 0px 0px 0px 0px;
+	top: 5px;
+	left: 5px;
+}
+
+@media (min-width: 768px) {
+	.button-1 {
+		padding: 0.25em 0.75em;
+	}
 }

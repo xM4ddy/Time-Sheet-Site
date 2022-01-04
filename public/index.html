@@ -11,55 +11,6 @@
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" title="dark" href="https://rdi.femboys.one/dark.css"/>
         <link rel="alternate stylesheet" type="text/css" title="light" href="https://rdi.femboys.one/light.css"/>
-        <style type="text/css">
-            .topcorner {
-                position: fixed;
-                top: 0;
-                right: 0;
-            }
-
-            .topcorner2 {
-                position: fixed;
-                top: .5em;
-                left: .2em;
-            }
-
-            .topcorner3 {
-                position: fixed;
-                top: 2em;
-                left: .2em;
-            }
-        </style>
-        <style>
-            .button-1 {
-                font-family: "Open Sans", sans-serif;
-                font-size: 16px;
-                letter-spacing: 2px;
-                text-decoration: none;
-                text-transform: uppercase;
-                color: rgb(77, 77, 77);
-                cursor: pointer;
-                border: 3px solid;
-                padding: 0.25em 0.5em;
-                box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-                position: relative;
-                user-select: none;
-                -webkit-user-select: none;
-                touch-action: manipulation;
-            }
-
-            .button-1:active {
-                box-shadow: 0px 0px 0px 0px;
-                top: 5px;
-                left: 5px;
-            }
-
-            @media (min-width: 768px) {
-                .button-1 {
-                    padding: 0.25em 0.75em;
-                }
-            }
-        </style>
         <script>
             function switch_style(css_title) {
                 var i, link_tag;
@@ -94,27 +45,19 @@
             }
         </script>
         <div id="console"></div>
-        <div class="topcorner">
-            <button class="button-1" type="button" onclick="switch_style('dark');return false;" name="theme" value="Light" id="dark">Dark Theme</button>
-            <button class="button-1" type="button" onclick="switch_style('light');return false;" name="theme" value="Light" id="light">Light Theme</button>
-        </div>
         <div class="topcorner2">
+            <button class="button-1" type="button" onclick="switch_style('dark');return false;" name="theme" value="Light" id="dark">Dark Theme</button>
+        </div>
+        <div class="topcorner">
+            <button class="button-1 light" type="button" onclick="switch_style('light');return false;" name="theme" value="Light" id="light">Light Theme</button>
+        </div>
+        <div class="topcorner3">
             <td class="sidebar">
                 <span style="background:#5BCEFA; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
                 <span style="background:#F5A9B8; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
                 <span style="background:white; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
                 <span style="background:#F5A9B8; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
                 <span style="background:#5BCEFA; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-            </td>
-        </div>
-        <div class="topcorner3">
-            <td class="sidebar-image">
-                <span style="background:red; border:0px solid #000; vertical-align:center; padding-right:0.79em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-                <span style="background:orange; border:0px solid #000; vertical-align:center; padding-right:0.78em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-                <span style="background:yellow; border:0px solid #000; vertical-align:center; padding-right:0.77em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-                <span style="background:green; border:0px solid #000; vertical-align:center; padding-right:0.78em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-                <span style="background:blue; border:0px solid #000; vertical-align:center; padding-right:0.78em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
-                <span style="background:purple; border:0px solid #000; vertical-align:center; padding-right:0.78em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
             </td>
         </div>
     </body>
