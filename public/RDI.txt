@@ -1,5 +1,5 @@
 <span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cd RDI/<!-- kjsdfhkjdhsfkjdshfkj -->Time-Sheets
-<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->1-16-22.txt<br/><br/>
+<span id="a">maddy@rdi</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->2-20-22.txt<br/><br/>
 
 <p>__________________________________________________________________________</p>
 
@@ -20,33 +20,37 @@ Tawk
 __________________________________________________________________________
 </span>
 
-<p>1/10/21 - 1/16/22</p>
-
-<a href="">-Blap:</a>
-<p>
--Tawk #: 46</br>-Tawk H: 0 <span id="b">(?)</span>
-</p>
+<p>2/14/21 - 2/20/22</p>
 
 <a href="">-Baloo:</a>
 <p>
--Tawk #: 8<br>-Tawk H: 6
+    -Tawk #: 6<br>-Tawk H: ~6<span id="b">*</span>
+</p>
+
+<a href="">-Blap:</a>
+<p>
+-Tawk #: 27</br>-Tawk H: ~56<span id="b">*</span>
+</p>
+
+<a href="">-Crippa:</a>
+<p>
+-Tawk #: 7</br>-Tawk H: ~20<span id="b">*</span>
 </p>
 
 <a href="">-Lucasrroni:</a>
 <p>
--Tawk #:  8</br>-Tawk H: 37
-</br>
-</br>
+-Tawk #: 6</br>-Tawk H: ~39<span id="b">*</span>
+</p>
+<p><span id="b">*Times are averages of last few weeks due to me needing a break.</span>
 __________________________________________________________________________
-
-<a href="">Tawk Misc:</a>
-Total Tawk Tickets: 96
-Missed Tawk chats this week: 39
-Percent Missed: ~40%
-Most time: Lucasrroni
+</br><a href="">Tawk Misc:</a></br>
+Total Tawk Tickets: 64
+Missed Tawk chats this week: 19
+Percent Missed: ~30%
+Most time: Blap
 Most tickets answered: Blap
 Least Time: Baloo
-Least tickets answered: Baloo / Lucasrroni
+Least tickets answered: Baloo/Lucasrroni
 __________________________________________________________________________
 </p>
 
