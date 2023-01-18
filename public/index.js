@@ -95,7 +95,7 @@ function replaceUrls(text) {
 }
 
 Typer.speed = 3;
-Typer.file = "RDI.txt";
+Typer.file = "times.txt";
 Typer.init();
 
 var timer = setInterval("t();", 20);
