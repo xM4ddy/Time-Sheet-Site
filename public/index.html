@@ -28,23 +28,6 @@
         </script>
     </head>
     <body>
-        <script type="text/javascript" src="index.js"></script>
-        <script>
-            currentTitle = 1;
-            myInterval = setInterval(setTitle, 1500);
-            function setTitle() {
-                if (currentTitle == 0) {
-                    document.title = "Glaid";
-                    currentTitle++;
-                } else if (currentTitle == 1) {
-                    document.title = "Likes";
-                    currentTitle++;
-                } else {
-                    document.title = "Twinks";
-                    currentTitle = 0;
-                }
-            }
-        </script>
         <div id="console"></div>
         <div class="topcorner2">
             <button class="button-1" type="button" onclick="switch_style('dark');return false;" name="theme" value="Light" id="dark">Dark Theme</button>
