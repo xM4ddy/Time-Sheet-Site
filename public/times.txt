@@ -35,7 +35,7 @@ __________________________________________________________________________
 <p>
 -Tawk #: 6</br>-Tawk H: ~39<span id="b">*</span>
 </p>
-<p><span id="b">*Times are averages of last few weeks due to me needing a break.</span>
+<p><span id="b">*Times are aproximate.</span>
 __________________________________________________________________________
 </br><a href="">Tawk Misc:</a></br>
 Total Tawk Tickets: ##
