@@ -2,7 +2,7 @@ var Typer = {
   text: "",
   accessCountimer: null,
   index: 0,
-  speed: 3,
+  speed: 8,
   file: "",
   accessCount: 0,
   deniedCount: 0,
@@ -95,10 +95,10 @@ function replaceUrls(text) {
 }
 
 Typer.speed = 3;
-Typer.file = "times.txt";
+Typer.file = "../public/content.txt";
 Typer.init();
 
-var timer = setInterval("t();", 20);
+var timer = setInterval("t();", 10);
 function t() {
   Typer.addText({ keyCode: 123748 });
 
@@ -106,3 +106,16 @@ function t() {
       clearInterval(timer);
   }
 }
+
+function switchTheme() {
+    console.log("Theme: " + /[^/]*$/.exec(document.getElementById('theme').href)[0]);
+
+    if (/[^/]*$/.exec(document.getElementById('theme').href) == "dark.css") {
+      document.getElementById('theme').href = "./public/light.css";
+      document.getElementById('switch').innerHTML = "Switch to Dark Theme";
+    } else {
+      document.getElementById('theme').href = "./public/dark.css";
+      document.getElementById('switch').innerHTML = "Switch to Light Theme";
+    }
+};
+  

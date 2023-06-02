@@ -1,68 +1,82 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+@supports (font-variation-settings: normal) {
+    code { font-family: 'Fira Code VF', monospace; }
+}
+
 :root {
-	background-color: #f8f8ff !important;
+    background-color: #EEEEEE !important;
 }
 
 body {
-	background-color: #f8f8ff;
+    background-color: #EEEEEE;
+	font-weight: 600;
 }
 
 #console {
-	font-family: courier, monospace;
-	color: #25252D;
-	width: 750px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	margin-bottom: 50px;
-	font-size: 1.2em !important;
+    font-family: 'Fira Code', monospace;
+    color: #101010;
+    width: 750px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    font-size: 1.2em !important;
+}
+
+p {
+    padding-bottom: 0px;
 }
 
 a {
-	color: #4242d8;
-	text-decoration: none;
+    color: #5BCEFA;
+    text-decoration: none;
 }
 
-#a {
-	color: #ee7990;
+.p {
+    color: #FF3B3F;
 }
 
-#c {
-	color: #4bd862;
+.c {
+    color: #5BCEFA;
 }
 
-#b {
-	color: #ff00ff;
+.purple {
+    color: #ff00ff
 }
 
-#k {
-	animation: change 2s;
+.b {
+    color: #5BCEFA;
 }
 
-#op {
-	color: #32D6D4;
+.k {
+    animation: change 2s;
+}
+
+.op {
+    color: #101010;
 }
 
 @keyframes change {
-	0% {
-		color: #ee7990;
-	}
-
-	80% {
-		color: #ee7990;
-	}
-
-	99% {
-		color: #282b34;
-	}
+    0% {
+        color: #ffaabb;
+    }
+    80% {
+        color: #ffaabb;
+    }
+    99% {
+        color: #282b34;
+    }
 }
 
-.topcorner2 {
+.topcorner {
     position: fixed;
     top: 1em;
     right: 0.5em;
 }
 
-.topcorner {
+.topcorner2 {
     position: fixed;
     top: 1em;
     left: 10em;
@@ -71,40 +85,27 @@ a {
 }
 
 .topcorner3 {
-	position: fixed;
-	top: .5em;
-	left: .5em;
+    position: fixed;
+    top: .5em;
+    left: .5em;
 }
 
-.button-1 {
-	font-family: courier, monospace;
-	font-size: 1.2em !important;
-	letter-spacing: 2px;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: transparent;
-	color: #25252D;
-	cursor: pointer;
-	border: 0px solid;
-	padding: 2em;
-	position: relative;
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
-}
-
-.button-1.light {
-	color: #f8f8ff00 !important;
-}
-
-.button-1:active {
-	box-shadow: 0px 0px 0px 0px;
-	top: 5px;
-	left: 5px;
+#switch {
+    font-family: courier, monospace;
+    font-size: 1.2em !important;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #101010;
+    cursor: pointer;
+    border: 0px;
+    padding: 2em;
+    touch-action: manipulation;
 }
 
 @media (min-width: 768px) {
-	.button-1 {
-		padding: 0.25em 0.75em;
-	}
+    .button-1 {
+        padding: 0.25em 0.75em;
+    }
 }

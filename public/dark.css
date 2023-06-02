@@ -1,20 +1,32 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+@supports (font-variation-settings: normal) {
+    code { font-family: 'Fira Code VF', monospace; }
+}
+
 :root {
     background-color: #101010 !important;
 }
 
 body {
     background-color: #101010;
+    font-weight: 500;
 }
 
 #console {
-    font-family: courier, monospace;
+    font-family: 'Fira Code', monospace;
     color: #cccccc;
     width: 750px;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 1.2em !important;
+}
+
+p {
+    padding-bottom: 0px;
 }
 
 a {
@@ -22,23 +34,27 @@ a {
     text-decoration: none;
 }
 
-#a {
+.p {
     color: #ffaabb;
 }
 
-#c {
+.c {
     color: #5BCEFA;
 }
 
-#b {
-    color: #ff00ff;
+.purple {
+    color: #ff00ff
 }
 
-#k {
+.b {
+    color: #5BCEFA;
+}
+
+.k {
     animation: change 2s;
 }
 
-#op {
+.op {
     color: #cccccc;
 }
 
@@ -74,31 +90,18 @@ a {
     left: .5em;
 }
 
-.button-1 {
+#switch {
     font-family: courier, monospace;
     font-size: 1.2em !important;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
     background-color: transparent;
-    color: #10101000;
+    color: #cccccc;
     cursor: pointer;
-    border: 0px solid;
+    border: 0px;
     padding: 2em;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
-}
-
-.button-1.light {
-    color: #cccccc !important;
-}
-
-.button-1:active {
-    box-shadow: 0px 0px 0px 0px;
-    top: 5px;
-    left: 5px;
 }
 
 @media (min-width: 768px) {
