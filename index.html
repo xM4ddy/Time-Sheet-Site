@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Glaid</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Time Sheet"/>
+        <meta property="og:description" content="Updated Time Sheet"/>
+        <meta property="og:image" content="https://site.example/maddy.png"/>
+        <meta property="og:url" content="https://site.example/maddy.png"/>
+        <meta name="viewport" content="width=1000, initial-scale=1.0">
+        <meta content="#FFD5D5" data-react-helmet="true" name="theme-color"/>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" title="dark" href="https://site.example/dark.css"/>
+        <link rel="alternate stylesheet" type="text/css" title="light" href="https://site.example/light.css"/>
+        <script>
+            function switch_style(css_title) {
+                var i, link_tag;
+                for (i = 0,
+                link_tag = document.getElementsByTagName("link"); i < link_tag.length; i++) {
+                    if (link_tag[i].rel.indexOf("stylesheet") != -1 && link_tag[i].title) {
+                        link_tag[i].disabled = true;
+                        if (link_tag[i].title == css_title) {
+                            link_tag[i].disabled = false;
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="console"></div>
+        <div class="topcorner2">
+            <button class="button-1" type="button" onclick="switch_style('dark');return false;" name="theme" value="Light" id="dark">Dark Theme</button>
+        </div>
+        <div class="topcorner">
+            <button class="button-1 light" type="button" onclick="switch_style('light');return false;" name="theme" value="Light" id="light">Light Theme</button>
+        </div>
+
+        <div class="topcorner3">
+            <td class="sidebar">
+                <span style="background:#5BCEFA; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
+                <span style="background:#F5A9B8; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
+                <span style="background:white; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
+                <span style="background:#F5A9B8; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
+                <span style="background:#5BCEFA; border:0px solid #000; vertical-align:center; padding-right:1em; padding-top:0ex; padding-bottom:0ex; line-height:100%">&nbsp;</span>
+            </td>
+        </div>
+        
+    </body>
+</html>
